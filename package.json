@@ -1,0 +1,23 @@
+{
+  "name": "otp",
+  "version": "1.0.0",
+  "description": "just to generate otp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thewni03/get_otp.git"
+  },
+  "author": "thewni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thewni03/get_otp/issues"
+  },
+  "homepage": "https://github.com/Thewni03/get_otp#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  }
+}
