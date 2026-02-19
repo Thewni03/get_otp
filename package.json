@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Thewni03/get_otp#readme",
   "dependencies": {
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "mongoose": "^9.2.1"
   }
 }
