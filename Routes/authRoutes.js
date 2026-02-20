@@ -3,7 +3,7 @@ const router = express.Router();
 
 const {
   register,
-  verifyOTP,   // ← capital OTP
+  verifyOTP,  
   resendOTP,
   login,
   logout,
@@ -13,7 +13,6 @@ const {
 const authMiddleware = require('../middleware/authMiddleware');
 
 
-// Routes
 
 router.post('/register', register);
 router.post('/verify-otp', verifyOTP);
