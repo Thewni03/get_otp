@@ -20,13 +20,8 @@ app.use(session({
 }));
 
 
-// ---------- Routes ---------- //
-
 const authRoutes = require('./Routes/authRoutes');
 app.use('/api/auth', authRoutes);
-
-
-// ---------- Server ---------- //
 
 const PORT = 3000;
 
